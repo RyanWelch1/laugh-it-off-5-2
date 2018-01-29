@@ -1,0 +1,22 @@
+/*
+ * Programming Quiz: Laugh (5-4)
+ */
+
+var laugh = function(num){ // anonymous funtion expression taht stores a function in a var
+    var howMany="";
+    for( var x = 0; x < num; x++) {
+        howMany += "ha";
+    }
+    return howMany;// loop to discover the has
+}
+
+console.log(laugh(10)); // outputs the numbers of ha's
+
+//
+//function(max) {
+  //var catMessage = ""
+ // for (var i = 0; i < max; i++) {
+  //  catMessage += "meow ";
+ // }
+ // return catMessage;
+//}
